@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      label {
+        display: block;
+        width: 170px;
+        height: 200px;
+        background: blue;
+        font-size: 3em;
+        line-height: 200px;
+        text-align: center;
+        border: solid 1px black;
+        float: left;
+      }
+      input {
+        display: none;
+      }
+      input:checked+label {
+        background: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input type="radio" name="yejinkim" id="radio1">
+      <label for="radio1">
+        <span>남자</span>
+      </label>
+    </div>
+    <div>
+      <input type="radio" name="yejinkim" id="radio2">
+      <label for="radio2">
+        <span>여자</span>
+      </label>
+    </div>
+  </body>
+</html>
